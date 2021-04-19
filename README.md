@@ -1,16 +1,36 @@
-# dev_quiz
+# DevQuiz
 
-A new Flutter project.
+<p align="center">
+   <img src="https://github.com/WellingtonFreitas/app-DevQuiz/blob/main/assets/images/cove.PNG?raw=true" alt="Move It" width="800"/>
+</p>
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+> :rocket: DevQuiz is a project to help people study and test knowledge about the technology studied. Next Level Week # 05 #NLW @Rocketseat
 
-A few resources to get you started if this is your first Flutter project:
+## In contruction
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# :closed_book: License
+
+Released in 2020 :closed_book: License
+
+Made with by [Wellington Freitas](https://github.com/WellingtonFreitas) 🚀.
+This project is under the [MIT license](./LICENSE).
+
+
+Give a ⭐️ if this project helped you!
+
+
+### Autor
+---
+<a href="https://blog.rocketseat.com.br/author/thiago/">
+ <img style="border-radius: 100%;" src=https://avatars.githubusercontent.com/u/72938207?s=400&u=9c4637de193798aec28c20978e83b0ff7f8b4f28&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Wellington Freitas</b></sub></a> <a> 
+
+
+Entre em contato!
+</br>
+[![Linkedin Badge](https://img.shields.io/badge/-WellingtonFreitas-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/isadora-rodrigues-stangarlin-48402b141/)](https://www.linkedin.com/in/wellington-freitas-43624283/) [![Gmail badge](https://img.shields.io/badge/-wellington.m.de.freitas-red?style=flat-square&logo=Gmail&logoColor=white&link=mailto:wellington.m.de.freitas@gmail.com)](mailto:wellington.m.de.freitas@gmail.com)
+
+
