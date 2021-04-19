@@ -12,7 +12,7 @@
 
 # :closed_book: License
 
-Released in 2020 :closed_book: License
+Released in 2021 :closed_book: License
 
 Made with by [Wellington Freitas](https://github.com/WellingtonFreitas) 🚀.
 This project is under the [MIT license](./LICENSE).
