@@ -1,6 +1,7 @@
 import 'package:dev_quiz/challenge/challenge_controller.dart';
 import 'package:dev_quiz/challenge/widgets/next_button/nest_button_widget.dart';
 import 'package:dev_quiz/challenge/widgets/quiz/quiz_widget.dart';
+import 'package:dev_quiz/result/result_page.dart';
 import 'package:dev_quiz/shared/models/question_model.dart';
 import 'package:flutter/material.dart';
 
@@ -8,10 +9,12 @@ import 'widgets/question_indicator/question_indicator_widget.dart';
 
 class ChallengePage extends StatefulWidget {
   final List<QuestionModel> questions;
+  final String title;
 
   ChallengePage({
     Key? key,
-    required this.questions,
+    required this.questions, 
+    required this.title,
   }) : super(key: key);
   @override
   _ChallengePageState createState() => _ChallengePageState();
@@ -35,6 +38,11 @@ class _ChallengePageState extends State<ChallengePage> {
         duration: Duration(microseconds: 300000), curve: Curves.linear);
   }
 
+  void onSelected(bool value){
+    if(value)
+      controller.anwserRight++;
+    nextPage();
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -65,7 +73,7 @@ class _ChallengePageState extends State<ChallengePage> {
         children: widget.questions
             .map((e) => QuizWidget(
                   question: e,
-                  onChange: nextPage,
+                  onSelected: onSelected,
                 ))
             .toList(),
       ),
@@ -80,7 +88,7 @@ class _ChallengePageState extends State<ChallengePage> {
                       children: [
                         if(value < widget.questions.length)
                           Expanded(
-                              child: NextButtonWidget.white(
+                             child: NextButtonWidget.white(
                             label: "Pular",
                             onTap: nextPage,
                           )),
@@ -89,7 +97,11 @@ class _ChallengePageState extends State<ChallengePage> {
                             child: NextButtonWidget.green(
                           label: "Confirmar",
                           onTap: (){
-                            Navigator.pop(context);
+                            Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => ResultPage(
+                              title: widget.title,
+                              result: controller.anwserRight,
+                              length: widget.questions.length,
+                              )));
                           },
                         )),
                       ],

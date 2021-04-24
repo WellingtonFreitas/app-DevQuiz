@@ -18,10 +18,12 @@ class QuestionIndicatorWidget extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [                
               Text(
+                // ignore: unnecessary_brace_in_string_interps
                 "Questão ${currentPage}", 
                 style: AppTextStyles.body,
                 ), 
                 Text(
+                  // ignore: unnecessary_brace_in_string_interps
                   "de ${length}",  
                   style: AppTextStyles.body,
                   ),

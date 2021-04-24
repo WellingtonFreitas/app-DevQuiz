@@ -1,43 +1,61 @@
 [
     {
-        "title": "NLW 5 Flutter",
+        "title": "Inicio Flutter",
         "imagem": "blocks",
         "questionAnswered": 1,
         "level": "facil",
         "questions": [
             {
-                "title": "Tá curtindo o fluter",
+                "title": "O que o Flutter faz em sua totalidade",
                 "awnsers": [
                     {
-                        "title": "Estou curtindo",
+                        "title": "Possibilita a criação de aplicativos compilados nativamente",
                         "isRight": true
                     },
                     {
-                        "title": "Não estou curtindo"
+                        "title": "Kit de desenvolvimento de interface de usuário"
                     },
                     {
-                        "title": "Pode ser melhor"
+                        "title": "Marca de café do Himalaia"
                     },
                     {
-                        "title": "Queria React Native"
+                        "title": "Possibilita a criação de desktops que são muito incríveis"
                     }
                 ]
             },
             {
-                "title": "Tá curtindo o fluter",
+                "title": "Qual linguagem é utilizada no Flutter?",
                 "awnsers": [
                     {
-                        "title": "Estou curtindo",
+                        "title": "JavaScript"
+                    },
+                    {
+                        "title": "Java"
+                    },
+                    {
+                        "title": "Dart",
                         "isRight": true
                     },
                     {
-                        "title": "Não estou curtindo"
+                        "title": "SQL"
+                    }
+                ]
+            },
+            {
+                "title": "Na estrutura de estilo reativo do Flutter, chamar ___ aciona uma chamada ao método build () para o objeto State, resultando em uma atualização da IU.",
+                "awnsers": [
+                    {
+                        "title": "buildRow()"
                     },
                     {
-                        "title": "Pode ser melhor"
+                        "title": "onTap()"
                     },
                     {
-                        "title": "Queria React Native"
+                        "title": "setState()",
+                        "isRight": true
+                    },
+                    {
+                        "title": "Nenhuma das acima"
                     }
                 ]
             }

@@ -29,6 +29,7 @@ class _HomePageState extends State<HomePage> {
    if(controller.state == HomeState.sucess){
       return Scaffold(
       appBar: AppBarWidget(user: controller.user!,),
+      backgroundColor: Colors.grey[100],
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20),
         child: Column(
@@ -68,7 +69,8 @@ class _HomePageState extends State<HomePage> {
                   completed: "${e.questionAnswered} de ${e.questions.length}",
                   onTap: (){
                     Navigator.push(context, MaterialPageRoute(builder: (context) => ChallengePage(
-                      questions: e.questions
+                      questions: e.questions,
+                      title: e.title,
                     )
                     ));
                   },
