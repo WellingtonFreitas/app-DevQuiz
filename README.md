@@ -23,7 +23,8 @@ Give a ⭐️ if this project helped you!
 
 ### Autor
 ---
-<a href="https://blog.rocketseat.com.br/author/thiago/">
+
+<a href="https://github.com/WellingtonFreitas">
  <img style="border-radius: 100%;" src=https://avatars.githubusercontent.com/u/72938207?s=400&u=9c4637de193798aec28c20978e83b0ff7f8b4f28&v=4" width="100px;" alt=""/>
  <br />
  <sub><b>Wellington Freitas</b></sub></a> <a> 
@@ -31,6 +32,4 @@ Give a ⭐️ if this project helped you!
 
 Entre em contato!
 </br>
-[![Linkedin Badge](https://img.shields.io/badge/-WellingtonFreitas-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/isadora-rodrigues-stangarlin-48402b141/)](https://www.linkedin.com/in/wellington-freitas-43624283/) [![Gmail badge](https://img.shields.io/badge/-wellington.m.de.freitas-red?style=flat-square&logo=Gmail&logoColor=white&link=mailto:wellington.m.de.freitas@gmail.com)](mailto:wellington.m.de.freitas@gmail.com)
-
-
+[![Linkedin Badge](https://img.shields.io/badge/-WellingtonFreitas-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/wellington-freitas-43624283/)](https://www.linkedin.com/in/wellington-freitas-43624283/) [![Gmail badge](https://img.shields.io/badge/-wellington.m.de.freitas-red?style=flat-square&logo=Gmail&logoColor=white&link=mailto:wellington.m.de.freitas@gmail.com)](mailto:wellington.m.de.freitas@gmail.com)
